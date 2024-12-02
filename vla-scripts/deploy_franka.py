@@ -28,10 +28,10 @@ SYSTEM_PROMPT = (
 )
 
 # Global variables to manage image files
-image_dir = '/home/ahrilab/Desktop/openvla/d'
-image_files = sorted([os.path.join(image_dir, f)
-                     for f in os.listdir(image_dir) if f.endswith('.jpg')])
-image_index = 0
+# image_dir = '/home/ahrilab/Desktop/openvla/d'
+# image_files = sorted([os.path.join(image_dir, f)
+#                      for f in os.listdir(image_dir) if f.endswith('.jpg')])
+# image_index = 0
 
 
 def get_openvla_prompt(instruction: str, openvla_path: Union[str, Path]) -> str:
